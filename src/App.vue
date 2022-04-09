@@ -1,5 +1,5 @@
 <template>
-  <nav class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
+  <!--<nav class="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex justify-between items-center h-16">
       <figure class="flex flex-shrink-0 items-center space-x-1">
         <img alt="Vue.js logo" class="h-8 w-auto" src="./assets/logo.svg" />
@@ -27,20 +27,21 @@
       </ul>
     </div>
   </nav>
-  <div class="py-10">
+  <div class="py-10">-->
+  <div>
     <router-view />
   </div>
 </template>
 
 <script>
-import { computed, reactive } from 'vue';
-import { useHead } from '@vueuse/head';
+// import { computed, reactive } from 'vue';
+// import { useHead } from '@vueuse/head';
 
-import { siteData } from '@/store';
+// import { siteData } from '@/store';
 
 export default {
   name: 'App',
-  setup() {
+  /*setup() {
     const data = reactive(siteData);
 
     useHead({
@@ -102,6 +103,6 @@ export default {
       ],
       title: computed(() => data.title),
     });
-  },
+  },*/
 };
 </script>
