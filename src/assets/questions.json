@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "question": "Quelle est la couleur de la mer noire ?",
+      "responses": [
+        {
+          "text": "Verte",
+          "isGood": false
+        },
+        {
+          "text": "Bleue",
+          "isGood": true
+        },
+        {
+          "text": "Noire",
+          "isGood": false
+        },
+        {
+          "text": "Rouge",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Combien font 1-4?",
+      "responses": [
+        {
+          "text": "-3",
+          "isGood": true
+        },
+        {
+          "text": "3",
+          "isGood": false
+        },
+        {
+          "text": "0",
+          "isGood": false
+        },
+        {
+          "text": "Impossible",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Combien coûte un litre d'essence ?",
+      "responses": [
+        {
+          "text": "20€",
+          "isGood": false
+        },
+        {
+          "text": "0,2€",
+          "isGood": false
+        },
+        {
+          "text": "2€",
+          "isGood": true
+        },
+        {
+          "text": "2000€",
+          "isGood": false
+        }
+      ]
+    }
+  ]
+}

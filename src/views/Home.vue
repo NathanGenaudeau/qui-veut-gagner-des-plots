@@ -2,21 +2,21 @@
   <div class="home">
 
     <div class="paliers">
-      <div>3000 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>1000 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>500 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>300 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>180 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>120 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>80 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>60 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>40 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>20 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>10 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>5 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>3 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div>2 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
-      <div class="currentLevel">1 <img class="plot_png" src="../../public/plot.png" alt="plots"/></div>
+      <div>3000 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>1000 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>500 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>300 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>180 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>120 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>80 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>60 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>40 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>20 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>10 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>5 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>3 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>2 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div class="currentLevel">1 <img class="plot_png" src="plot.png" alt="plots"/></div>
     </div>
 
     <div>
@@ -30,6 +30,7 @@
 
 <script>
 import Question from '@/components/Question.vue';
+import QuestionsList from '@/assets/questions.json';
 
 export default {
   name: 'Home',
@@ -40,37 +41,9 @@ export default {
 
   data() {
     return {
+      questions: QuestionsList.questions,
       disableButton: false,
       currentQuestion: 0,
-      questions: [
-        {
-          question: "Quelle est la couleur de la mer noire ?",
-          responses: [
-            { text: "Verte", isGood: false },
-            { text: "Bleue", isGood: true },
-            { text: "Noire", isGood: false },
-            { text: "Rouge", isGood: false },
-          ]
-        },
-        {
-          question: "Combien font 1-4?",
-          responses: [
-            { text: "-3", isGood: true },
-            { text: "3", isGood: false },
-            { text: "0", isGood: false },
-            { text: "Impossible", isGood: false },
-          ]
-        },
-        {
-          question: "Combien coûte un litre d'essence ?",
-          responses: [
-            { text: "20€", isGood: false },
-            { text: "0,2€", isGood: false },
-            { text: "2€", isGood: true },
-            { text: "2000€", isGood: false },
-          ]
-        },
-      ],
     }
   },
   methods: {
