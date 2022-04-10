@@ -1,65 +1,317 @@
 {
   "questions": [
     {
-      "question": "Quelle est la couleur de la mer noire ?",
+      "question": "Qui est le fondateur de la PDC ?" ,
       "responses": [
         {
-          "text": "Verte",
-          "isGood": false
-        },
-        {
-          "text": "Bleue",
+          "text": "Braziy",
           "isGood": true
         },
         {
-          "text": "Noire",
+          "text": "Dwearky",
           "isGood": false
         },
         {
-          "text": "Rouge",
+          "text": "Monstru",
+          "isGood": false
+        },
+        {
+          "text": "Tanezill",
           "isGood": false
         }
       ]
     },
     {
-      "question": "Combien font 1-4?",
+      "question": "Qui a remporté la 3ème édition de la célèbre compétition Koh-Lanta Cup ?",
       "responses": [
         {
-          "text": "-3",
+          "text": "Braziy",
+          "isGood": false
+        },
+        {
+          "text": "Dwearky",
           "isGood": true
+        },
+        {
+          "text": "Worpus",
+          "isGood": false
+        },
+        {
+          "text": "Felray",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Lors de l'InsaLan 2022, à quelle position la PDC a-t-elle terminé sur League of Legends ?",
+      "responses": [
+        {
+          "text": "1ère",
+          "isGood": false
+        },
+        {
+          "text": "2ème",
+          "isGood": false
+        },
+        {
+          "text": "3ème",
+          "isGood": false
+        },
+        {
+          "text": "4ème",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
+      "responses": [
+        {
+          "text": "Live 24h sur Age Of Empire IV",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Apex Legend",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Counter Strike Global Offensive",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h en ARAM sur League of Legends",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quelles sont les couleurs de la PDC ?",
+      "responses": [
+        {
+          "text": "#FFFFFF....",
+          "isGood": false
+        },
+        {
+          "text": "#AZAEZZ",
+          "isGood": false
+        },
+        {
+          "text": "zeazeaz",
+          "isGood": false
+        },
+        {
+          "text": "a",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel est le rank actuel de Bibi sur League of Legends ?",
+      "responses": [
+        {
+          "text": "Platine I",
+          "isGood": false
+        },
+        {
+          "text": "Diamant III",
+          "isGood": false
+        },
+        {
+          "text": "Diamant I",
+          "isGood": true
+        },
+        {
+          "text": "Master",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Sur quelle autre jeu (multijoueur) la PDC a existé durant un cours temps...(fait des compets) ?",
+      "responses": [
+        {
+          "text": "TrackMania",
+          "isGood": false
+        },
+        {
+          "text": "TeamFight Tactics",
+          "isGood": false
+        },
+        {
+          "text": "Rocket League",
+          "isGood": true
+        },
+        {
+          "text": "Europa Universalis IV",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Que signifie  \"PDC\" ?",
+      "responses": [
+        {
+          "text": "Prêtres des Comores",
+          "isGood": false
+        },
+        {
+          "text": "Portes du couloir",
+          "isGood": false
+        },
+        {
+          "text": "Plots de chantier",
+          "isGood": true
+        },
+        {
+          "text": "Packs de cidre",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé (vérifier) ?",
+      "responses": [
+        {
+          "text": "1",
+          "isGood": false
+        },
+        {
+          "text": "2",
+          "isGood": false
         },
         {
           "text": "3",
           "isGood": false
         },
         {
-          "text": "0",
-          "isGood": false
-        },
-        {
-          "text": "Impossible",
-          "isGood": false
+          "text": "4",
+          "isGood": true
         }
       ]
     },
     {
-      "question": "Combien coûte un litre d'essence ?",
+      "question": "Combien de membres dans le roaster PDC (à revoir) ?",
       "responses": [
         {
-          "text": "20€",
+          "text": "7",
           "isGood": false
         },
         {
-          "text": "0,2€",
+          "text": "8",
           "isGood": false
         },
         {
-          "text": "2€",
+          "text": "9",
+          "isGood": false
+        },
+        {
+          "text": "10",
           "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
+      "responses": [
+        {
+          "text": "Weeb",
+          "isGood": false
         },
         {
-          "text": "2000€",
+          "text": "Père de Braziy",
           "isGood": false
+        },
+        {
+          "text": "Gras de caca prout",
+          "isGood": false
+        },
+        {
+          "text": "aaaa",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quelle a été la durée du live le plus long sur notre chaîne Twitch ?",
+      "responses": [
+        {
+          "text": "24h",
+          "isGood": false
+        },
+        {
+          "text": "27h",
+          "isGood": false
+        },
+        {
+          "text": "30h",
+          "isGood": false
+        },
+        {
+          "text": "33h",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
+      "responses": [
+        {
+          "text": "Live 24h sur Age Of Empire IV",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Apex Legend",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Counter Strike Global Offensive",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur League of Legends",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
+      "responses": [
+        {
+          "text": "Live 24h sur Age Of Empire IV",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Apex Legend",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Counter Strike Global Offensive",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur League of Legends",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
+      "responses": [
+        {
+          "text": "Live 24h sur Age Of Empire IV",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Apex Legend",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Counter Strike Global Offensive",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur League of ",
+          "isGood": true
         }
       ]
     }

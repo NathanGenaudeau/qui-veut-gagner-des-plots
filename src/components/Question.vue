@@ -50,7 +50,7 @@ export default {
   border-radius: 10px;
   background: #FF7E09;
   color: white;
-  font-size: 1.5em;
+  font-size: 1.2em;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
@@ -69,6 +69,7 @@ export default {
   border-radius: 10px;
   background: #333;
   color: white;
+  padding-inline: 75px;
   margin-top: 10px;
   font-size: 1.2em;
   font-weight: bold;

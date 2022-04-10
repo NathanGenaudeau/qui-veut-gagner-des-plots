@@ -21,6 +21,7 @@
 
     <div>
       <!--<div>Question n°{{ currentQuestion+1 }}</div>-->
+      <!-- todo ajouter fondu pour apparition des réponses-->
       <Question :question=questions[currentQuestion].question :responses="questions[currentQuestion].responses" @answerChoosen="afterClick"/>
     </div>
     <button class="next" @click="nextQuestion" :disabled="disableButton">Question suivante</button>
@@ -63,13 +64,21 @@ export default {
 
 <style>
 .home {
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: #29539b;
-  height: 940px;
-  background-image: linear-gradient(315deg, #29539b 0%, #1e3b70 74%);
+  height: 1080px;
+  background-image: url("fond_pdc.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /*background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );
+  background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
+  background-image: linear-gradient( 89.8deg,  rgba(222,74,74,1) 4.7%, rgba(30,29,29,1) 120.3% );
+  background-color: #FAD961;
+  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);*/
 }
 
 .paliers {
@@ -88,8 +97,8 @@ export default {
   display: flex;
   justify-content: right;
   align-items: center;
-  font-weight: bold;
   font-size: 1.2em;
+  border: 1px solid #000;
 }
 .next {
   width: 200px;
