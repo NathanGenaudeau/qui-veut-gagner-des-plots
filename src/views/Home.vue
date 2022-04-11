@@ -2,28 +2,33 @@
   <div class="home">
 
     <div class="paliers">
-      <div>3000 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div class="palier">3000 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>1000 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>500 <img class="plot_png" src="/plot.png" alt="plots"/></div>
       <div>300 <img class="plot_png" src="/plot.png" alt="plots"/></div>
       <div>180 <img class="plot_png" src="/plot.png" alt="plots"/></div>
-      <div>120 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div class="palier">120 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>80 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>60 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>40 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>20 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>10 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div class="palier">10 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>5 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>3 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>2 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div class="currentLevel">1 <img class="plot_png" src="plot.png" alt="plots"/></div>
     </div>
 
-    <div>
-      <!--<div>Question n°{{ currentQuestion+1 }}</div>-->
-      <!-- todo ajouter fondu pour apparition des réponses-->
+    <div class="parent">
       <Question :question=questions[currentQuestion].question :responses="questions[currentQuestion].responses" @answerChoosen="afterClick"/>
+      <div class="bonus">
+        <div>50/50</div>
+        <div>Appel</div>
+        <div>Vote</div>
+        <div>Roue ?</div>
+      </div>
     </div>
+
     <button class="show" @click="showOne"></button>
     <button class="next" @click="nextQuestion" :disabled="disableButton"></button>
     <div>https://github.com/NathanGenaudeau/application-quiz/blob/main/src/views/Quiz.vue</div>
@@ -71,18 +76,10 @@ export default {
       }
     },
     afterClick(response) {
-      /*const responses = document.getElementsByClassName('response');
-      let resp = '';
-      for (let i = 0; i < responses.length; i++) {
-        if (responses[i].innerHTML === response.text) {
-          resp = responses[i];
-        }
-      }*/
       if (response.isGood) {
-        // resp.classList.add('good');
+        // Modif pour faire gagner / perdre
         console.log('Bravo, vous avez trouvé la réponse !');
       } else {
-        // resp.classList.add('bad');
         console.log('Dommage, vous n\'avez pas trouvé la réponse !');
       }
     }
@@ -102,11 +99,6 @@ export default {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /*background-image: linear-gradient( 106.9deg,  rgba(148,14,60,1) 60.9%, rgba(3,22,27,1) 122.3% );
-  background-image: linear-gradient( 89.4deg,  rgba(194,0,39,1) 0.8%, rgba(10,35,104,1) 99.4% );
-  background-image: linear-gradient( 89.8deg,  rgba(222,74,74,1) 4.7%, rgba(30,29,29,1) 120.3% );
-  background-color: #FAD961;
-  background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);*/
 }
 
 .paliers {
@@ -126,18 +118,38 @@ export default {
   justify-content: right;
   align-items: center;
   font-size: 1.2em;
-  /*font-weight: bold;*/
   border: 2px solid #000;
+}
+.palier {
+  font-weight: bold;
+  border: 3px solid black!important;
+}
+.parent {
+  position: relative;
+}
+.bonus {
+  position: absolute;
+  top: 150px;
+  left: -200px;
+}
+.bonus > div {
+  width: 100px;
+  height: 50px;
+  background-color: green;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
 }
 .next {
   display: flex;
   width: 50px;
   height: 25px;
-  /*background-color: #fff;
-  border-radius: 5px;
-  margin: 1px;
-  justify-content: center;
-  align-items: center;*/
 }
 .show {
   display: flex;
