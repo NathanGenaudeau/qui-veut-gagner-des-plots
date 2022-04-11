@@ -24,7 +24,8 @@
       <!-- todo ajouter fondu pour apparition des réponses-->
       <Question :question=questions[currentQuestion].question :responses="questions[currentQuestion].responses" @answerChoosen="afterClick"/>
     </div>
-    <button class="next" @click="nextQuestion" :disabled="disableButton">Question suivante</button>
+    <button class="show" @click="showOne"></button>
+    <button class="next" @click="nextQuestion" :disabled="disableButton"></button>
     <div>https://github.com/NathanGenaudeau/application-quiz/blob/main/src/views/Quiz.vue</div>
   </div>
 </template>
@@ -49,14 +50,41 @@ export default {
   },
   methods: {
     nextQuestion() {
-      this.currentQuestion++
+      this.currentQuestion++;
+      const answers = document.getElementsByClassName('response');
+      for (let i = 0; i < answers.length; i++) {
+        answers[i].style.color = 'transparent';
+        answers[i].style.backgroundColor = '#FAFAFA';
+      }
       this.disableButton = this.currentQuestion + 1 >= this.questions.length;
       const nbPlots = document.getElementsByClassName('currentLevel')[0];
       nbPlots.classList.remove('currentLevel');
       nbPlots.previousElementSibling.classList.add('currentLevel');
     },
-    afterClick(value) {
-      console.log(value);
+    showOne() {
+      const resp = document.getElementsByClassName('response');
+      for (let i = 0; i < resp.length; i++) {
+        if (resp[i].style.color !== 'rgb(0, 0, 0)') {
+          resp[i].style.color = '#000';
+          break;
+        }
+      }
+    },
+    afterClick(response) {
+      /*const responses = document.getElementsByClassName('response');
+      let resp = '';
+      for (let i = 0; i < responses.length; i++) {
+        if (responses[i].innerHTML === response.text) {
+          resp = responses[i];
+        }
+      }*/
+      if (response.isGood) {
+        // resp.classList.add('good');
+        console.log('Bravo, vous avez trouvé la réponse !');
+      } else {
+        // resp.classList.add('bad');
+        console.log('Dommage, vous n\'avez pas trouvé la réponse !');
+      }
     }
   },
 };
@@ -89,7 +117,7 @@ export default {
 .paliers > div {
   width: 110px;
   height: 100%;
-  background-color: #fff;
+  background-color: #fefefe;
   border-radius: 5px;
   margin: 1px;
   padding-right: 10px;
@@ -98,20 +126,29 @@ export default {
   justify-content: right;
   align-items: center;
   font-size: 1.2em;
-  border: 1px solid #000;
+  /*font-weight: bold;*/
+  border: 2px solid #000;
 }
 .next {
-  width: 200px;
-  height: 50px;
-  background-color: #fff;
+  display: flex;
+  width: 50px;
+  height: 25px;
+  /*background-color: #fff;
   border-radius: 5px;
   margin: 1px;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
+}
+.show {
+  display: flex;
+  width: 50px;
+  height: 25px;
 }
 .currentLevel {
-  background-color: orange!important;
+  background-color: #FF7E09!important;
+  color: white;
+  font-weight: bold;
+  border: 3px solid black!important;
 }
 .plot_png {
   margin-left: 5px;
