@@ -22,7 +22,7 @@
       ]
     },
     {
-      "question": "Qui a remporté la 3ème édition de la célèbre compétition Koh-Lanta Cup ?",
+      "question": "Qui a remporté la 1ème édition de la célèbre compétition Koh-Lanta Cup ?",
       "responses": [
         {
           "text": "Braziy",
@@ -30,11 +30,11 @@
         },
         {
           "text": "Dwearky",
-          "isGood": true
+          "isGood": false
         },
         {
-          "text": "Worpus",
-          "isGood": false
+          "text": "Lolox",
+          "isGood": true
         },
         {
           "text": "Felray",
@@ -88,20 +88,20 @@
       "question": "Quelles sont les couleurs de la PDC ?",
       "responses": [
         {
-          "text": "#FFFFFF....",
-          "isGood": false
-        },
-        {
-          "text": "#AZAEZZ",
-          "isGood": false
-        },
-        {
-          "text": "zeazeaz",
-          "isGood": false
-        },
-        {
-          "text": "a",
+          "text": "#FFFFFF et #FF7D08",
           "isGood": true
+        },
+        {
+          "text": "#000000 et #FF7D08",
+          "isGood": false
+        },
+        {
+          "text": "#FFFFFF et #1212F7",
+          "isGood": false
+        },
+        {
+          "text": "#000000 et #1212F7",
+          "isGood": false
         }
       ]
     },
@@ -109,16 +109,16 @@
       "question": "Quel est le rank actuel de Bibi sur League of Legends ?",
       "responses": [
         {
-          "text": "Platine I",
+          "text": "Platine II-I",
           "isGood": false
         },
         {
-          "text": "Diamant III",
-          "isGood": false
-        },
-        {
-          "text": "Diamant I",
+          "text": "Diamant IV-III (https://euw.op.gg/summoners/euw/PDC%20BiBi)",
           "isGood": true
+        },
+        {
+          "text": "Diamant II-I",
+          "isGood": false
         },
         {
           "text": "Master",
@@ -127,7 +127,7 @@
       ]
     },
     {
-      "question": "Dans la description youtube.... ?",
+      "question": "Dans la description youtube de notre chaine youtube sur quel autre jeu la PDC existe-t-elle  ?",
       "responses": [
         {
           "text": "TrackMania",
@@ -142,20 +142,20 @@
           "isGood": true
         },
         {
-          "text": "Europa Universalis IV",
+          "text": "Counter Strike Global Offensive",
           "isGood": false
         }
       ]
     },
     {
-      "question": "Que signifie  \"PDC\" ?",
+      "question": "Que signifie \"PDC\" ?",
       "responses": [
         {
-          "text": "Prêtres des Comores",
+          "text": "Prêtres des cieux",
           "isGood": false
         },
         {
-          "text": "Portes du couloir",
+          "text": "Poutres des Comores",
           "isGood": false
         },
         {
@@ -169,7 +169,7 @@
       ]
     },
     {
-      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé (vérifier) ?",
+      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ?",
       "responses": [
         {
           "text": "1",
@@ -177,7 +177,7 @@
         },
         {
           "text": "2",
-          "isGood": false
+          "isGood": true
         },
         {
           "text": "3",
@@ -185,7 +185,7 @@
         },
         {
           "text": "4",
-          "isGood": true
+          "isGood": false
         }
       ]
     },
@@ -214,19 +214,19 @@
       "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
       "responses": [
         {
-          "text": "Weeb",
+          "text": "Cadre ingénieur",
           "isGood": false
         },
         {
-          "text": "Père de Braziy",
+          "text": "Grande soeur de Braziy",
+          "isGood": true
+        },
+        {
+          "text": "GRAS DE CACA PROUT",
           "isGood": false
         },
         {
-          "text": "Gras de caca prout",
-          "isGood": false
-        },
-        {
-          "text": "aaaa",
+          "text": "Mascotte",
           "isGood": true
         }
       ]
@@ -235,11 +235,7 @@
       "question": "Quelle a été la durée du live le plus long sur notre chaîne Twitch ?",
       "responses": [
         {
-          "text": "24h",
-          "isGood": false
-        },
-        {
-          "text": "27h",
+          "text": "28h",
           "isGood": false
         },
         {
@@ -247,7 +243,11 @@
           "isGood": false
         },
         {
-          "text": "33h",
+          "text": "32h",
+          "isGood": false
+        },
+        {
+          "text": "34h",
           "isGood": true
         }
       ]
