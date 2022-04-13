@@ -1,0 +1,194 @@
+{
+  "questions": [
+    {
+      "question": "Laquelle de ces propositions ne se rapporte pas à un élément du corps humain ?" ,
+      "responses": [
+        {
+          "text": "Le cerveau",
+          "isGood": false
+        },
+        {
+          "text": "La cervicale",
+          "isGood": false
+        },
+        {
+          "text": "Le cervelet",
+          "isGood": false
+        },
+        {
+          "text": "Le cervelas",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Dans la série \"The Walking Dead\", les héros sont poursuivis par des hordes de..." ,
+      "responses": [
+        {
+          "text": "Femmes amoureuses",
+          "isGood": false
+        },
+        {
+          "text": "Zombies affamés",
+          "isGood": false
+        },
+        {
+          "text": "Canards enragés",
+          "isGood": false
+        },
+        {
+          "text": "Ch'tis de téléréalité",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel massif montagneux est situé en Allemagne, près de la frontière française ?" ,
+      "responses": [
+        {
+          "text": "Le Paris-Brest",
+          "isGood": false
+        },
+        {
+          "text": "La Forêt-Noire",
+          "isGood": true
+        },
+        {
+          "text": "La Rose-des-Sables",
+          "isGood": false
+        },
+        {
+          "text": "La Tropézienne",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Combien de Coupes du monde de football l'équipe de France a-t-elle gagné jusqu'en 2020 ?" ,
+      "responses": [
+        {
+          "text": "1",
+          "isGood": false
+        },
+        {
+          "text": "2",
+          "isGood": true
+        },
+        {
+          "text": "3",
+          "isGood": false
+        },
+        {
+          "text": "4",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Pour qualifier une chose qui convient à une situation, on utilise la locution latine..." ,
+      "responses": [
+        {
+          "text": "Tournesol",
+          "isGood": false
+        },
+        {
+          "text": "Ad hoc",
+          "isGood": true
+        },
+        {
+          "text": "Tintin",
+          "isGood": false
+        },
+        {
+          "text": "Milou",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Sur la pochette de l'album \"Abbey Road\", quelle est la couleur du costume de John Lennon ?" ,
+      "responses": [
+        {
+          "text": "Jaune",
+          "isGood": false
+        },
+        {
+          "text": "Rouge",
+          "isGood": false
+        },
+        {
+          "text": "Marron",
+          "isGood": false
+        },
+        {
+          "text": "Blanc",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Sur le logo de quelle émission culinaire peut-on voir un couteau de cuisine ?" ,
+      "responses": [
+        {
+          "text": "MasterChef",
+          "isGood": false
+        },
+        {
+          "text": "Un dîner presque parfait",
+          "isGood": false
+        },
+        {
+          "text": "Top Chef",
+          "isGood": true
+        },
+        {
+          "text": "Le Meilleur Patissier",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Comment appelle-t-on la branche de la médecine qui se consacre au foie ?" ,
+      "responses": [
+        {
+          "text": "L'anesthésiologie",
+          "isGood": false
+        },
+        {
+          "text": "L'andrologie",
+          "isGood": false
+        },
+        {
+          "text": "L'hépatologie",
+          "isGood": true
+        },
+        {
+          "text": "L'odontologie",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle est la durée maximum d'une interruption de match avant qu'il ne soit définitivement stoppé ?" ,
+      "responses": [
+        {
+          "text": "15 minutes",
+          "isGood": false
+        },
+        {
+          "text": "25 minutes",
+          "isGood": false
+        },
+        {
+          "text": "35 minutes",
+          "isGood": false
+        },
+        {
+          "text": "45 minutes",
+          "isGood": true
+        }
+      ]
+    }
+  ]
+}
+
