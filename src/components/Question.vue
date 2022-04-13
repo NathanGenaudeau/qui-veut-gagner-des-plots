@@ -47,10 +47,11 @@ export default {
   border-radius: 10px;
   background: #FF7E09;
   color: white;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: bold;
   text-align: center;
   margin-top: 20px;
+  padding-inline: 50px;
 }
 .responseBody {
   margin: 10px 0;
@@ -64,11 +65,11 @@ export default {
   height: 140px;
   border: 2px solid black;
   border-radius: 10px;
-  background: #FAFAFA;
+  background: #A5A7A7;
   color: transparent;
   padding-inline: 75px;
   margin-top: 10px;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-weight: bold;
 }
 .good{

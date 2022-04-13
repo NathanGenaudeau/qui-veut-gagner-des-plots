@@ -25,13 +25,12 @@
         <div>50/50</div>
         <div>Appel</div>
         <div>Vote</div>
-        <div>Roue ?</div>
+        <div>Mystère</div>
       </div>
     </div>
 
-    <button class="show" @click="showOne"></button>
-    <button class="next" @click="nextQuestion" :disabled="disableButton"></button>
-    <div>https://github.com/NathanGenaudeau/application-quiz/blob/main/src/views/Quiz.vue</div>
+    <div class="show" @click="showOne"></div>
+    <div class="next" @click="nextQuestion" :disabled="disableButton"></div>
   </div>
 </template>
 
@@ -59,7 +58,8 @@ export default {
       const answers = document.getElementsByClassName('response');
       for (let i = 0; i < answers.length; i++) {
         answers[i].style.color = 'transparent';
-        answers[i].style.backgroundColor = '#FAFAFA';
+        if (answers[i].classList.contains('good')) answers[i].classList.remove('good');
+        if (answers[i].classList.contains('bad')) answers[i].classList.remove('bad');
       }
       this.disableButton = this.currentQuestion + 1 >= this.questions.length;
       const nbPlots = document.getElementsByClassName('currentLevel')[0];
@@ -76,11 +76,15 @@ export default {
       }
     },
     afterClick(response) {
-      if (response.isGood) {
-        // Modif pour faire gagner / perdre
-        console.log('Bravo, vous avez trouvé la réponse !');
-      } else {
-        console.log('Dommage, vous n\'avez pas trouvé la réponse !');
+      const goodRep = this.questions[this.currentQuestion].responses.find(resp => resp.isGood === true);
+      const answers = document.getElementsByClassName('response');
+
+      if (!response.isGood) {
+        for (let i = 0; i < answers.length; i++) {
+          if (answers[i].innerHTML === goodRep.text) {
+            answers[i].classList.add('good');
+          }
+        }
       }
     }
   },
@@ -109,7 +113,7 @@ export default {
 .paliers > div {
   width: 110px;
   height: 100%;
-  background-color: #fefefe;
+  background-color: #A5A7A7;
   border-radius: 5px;
   margin: 1px;
   padding-right: 10px;
@@ -123,6 +127,7 @@ export default {
 .palier {
   font-weight: bold;
   border: 3px solid black!important;
+  background-color: #C5C7C7!important;
 }
 .parent {
   position: relative;
