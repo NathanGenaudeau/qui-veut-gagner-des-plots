@@ -22,10 +22,10 @@
     <div class="parent">
       <Question :question=questions[currentQuestion].question :responses="questions[currentQuestion].responses" @answerChoosen="afterClick"/>
       <div class="bonus">
-        <div>50/50</div>
-        <div>Appel</div>
-        <div>Vote</div>
-        <div>Mystère</div>
+        <div class="bonus1" @click="bonusMoitie('bonus1')">50/50</div>
+        <div class="bonus2" @click="bonus('bonus2')">Appel</div>
+        <div class="bonus3" @click="bonus('bonus3')">Public</div>
+        <div class="bonus4" @click="bonus('bonus4')">Mystère</div>
       </div>
     </div>
 
@@ -86,7 +86,31 @@ export default {
           }
         }
       }
-    }
+    },
+    generateRandom(min, max, exclude, exclude2) {
+      const num = Math.floor(Math.random() * (max - min + 1)) + min;
+      return (num === exclude || num === exclude2) ? this.generateRandom(min, max, exclude, exclude2) : num;
+    },
+    bonus(elem) {
+      const element = document.getElementsByClassName(elem)[0];
+      element.classList.add('used');
+    },
+    bonusMoitie(elem) {
+      this.bonus(elem);
+      const goodRep = this.questions[this.currentQuestion].responses.find(resp => resp.isGood === true);
+      const answers = document.getElementsByClassName('response');
+
+      for (let i = 0; i < answers.length; i++) {
+        if (answers[i].innerHTML === goodRep.text) {
+          const random = this.generateRandom(0,3, i, i);
+          const random2 = this.generateRandom(0,3, i, random);
+          setTimeout(() => {
+            answers[random].style.color = 'transparent';
+            answers[random2].style.color = 'transparent';
+          }, 2000);
+        }
+      }
+    },
   },
 };
 </script>
@@ -171,5 +195,8 @@ export default {
   margin-left: 5px;
   width: 15px;
   height: 18px;
+}
+.used {
+  background-color: #888!important;
 }
 </style>
