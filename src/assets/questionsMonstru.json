@@ -5,7 +5,7 @@
       "responses": [
         {
           "text": "Braziy",
-          "isGood": false
+          "isGood": true
         },
         {
           "text": "Dwearky",
@@ -13,7 +13,7 @@
         },
         {
           "text": "Lolox",
-          "isGood": true
+          "isGood": false
         },
         {
           "text": "Felray",

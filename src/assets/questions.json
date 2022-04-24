@@ -1,132 +1,6 @@
 {
   "questions": [
     {
-      "question": "Qui est le fondateur de la PDC ?" ,
-      "responses": [
-        {
-          "text": "Braziy",
-          "isGood": true
-        },
-        {
-          "text": "Dwearky",
-          "isGood": false
-        },
-        {
-          "text": "Monstru",
-          "isGood": false
-        },
-        {
-          "text": "Tanezill",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Qui a remporté la 1ème édition de la célèbre compétition Koh-Lanta Cup ?",
-      "responses": [
-        {
-          "text": "Braziy",
-          "isGood": false
-        },
-        {
-          "text": "Dwearky",
-          "isGood": false
-        },
-        {
-          "text": "Lolox",
-          "isGood": true
-        },
-        {
-          "text": "Felray",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Lors de l'InsaLan 2022, à quelle position la PDC a-t-elle terminé sur League of Legends ?",
-      "responses": [
-        {
-          "text": "1ère",
-          "isGood": false
-        },
-        {
-          "text": "2ème",
-          "isGood": false
-        },
-        {
-          "text": "3ème",
-          "isGood": false
-        },
-        {
-          "text": "4ème",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
-      "responses": [
-        {
-          "text": "Live 24h sur Age Of Empire IV",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Apex Legend",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Counter Strike Global Offensive",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h en ARAM sur League of Legends",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Quelles sont les couleurs de la PDC ?",
-      "responses": [
-        {
-          "text": "#FFFFFF et #FF7D08",
-          "isGood": true
-        },
-        {
-          "text": "#000000 et #FF7D08",
-          "isGood": false
-        },
-        {
-          "text": "#FFFFFF et #1212F7",
-          "isGood": false
-        },
-        {
-          "text": "#000000 et #1212F7",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Quel est le rank actuel de Bibi sur League of Legends ?",
-      "responses": [
-        {
-          "text": "Platine II-I",
-          "isGood": false
-        },
-        {
-          "text": "Diamant IV-III (https://euw.op.gg/summoners/euw/PDC%20BiBi)",
-          "isGood": true
-        },
-        {
-          "text": "Diamant II-I",
-          "isGood": false
-        },
-        {
-          "text": "Master",
-          "isGood": false
-        }
-      ]
-    },
-    {
       "question": "Dans la description youtube de notre chaine youtube sur quel autre jeu la PDC existe-t-elle  ?",
       "responses": [
         {
@@ -148,86 +22,23 @@
       ]
     },
     {
-      "question": "Que signifie \"PDC\" ?",
+      "question": "Combien de personnes ont le rôle LOL sur le discord ?",
       "responses": [
-        {
-          "text": "Prêtres des cieux",
-          "isGood": false
-        },
-        {
-          "text": "Poutres des Comores",
-          "isGood": false
-        },
-        {
-          "text": "Plots de chantier",
-          "isGood": true
-        },
-        {
-          "text": "Packs de cidre",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ?",
-      "responses": [
-        {
-          "text": "1",
-          "isGood": false
-        },
-        {
-          "text": "2",
-          "isGood": true
-        },
-        {
-          "text": "3",
-          "isGood": false
-        },
-        {
-          "text": "4",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Combien de membres dans le roaster PDC (à revoir) ?",
-      "responses": [
-        {
-          "text": "7",
-          "isGood": false
-        },
-        {
-          "text": "8",
-          "isGood": false
-        },
-        {
-          "text": "9",
-          "isGood": false
-        },
         {
           "text": "10",
           "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
-      "responses": [
+        },
         {
-          "text": "Cadre ingénieur",
+          "text": "12",
           "isGood": false
         },
         {
-          "text": "Grande soeur de Braziy",
-          "isGood": true
-        },
-        {
-          "text": "GRAS DE CACA PROUT",
+          "text": "14",
           "isGood": false
         },
         {
-          "text": "Mascotte",
-          "isGood": true
+          "text": "16",
+          "isGood": false
         }
       ]
     },
@@ -248,69 +59,6 @@
         },
         {
           "text": "34h",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
-      "responses": [
-        {
-          "text": "Live 24h sur Age Of Empire IV",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Apex Legend",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Counter Strike Global Offensive",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur League of Legends",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
-      "responses": [
-        {
-          "text": "Live 24h sur Age Of Empire IV",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Apex Legend",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Counter Strike Global Offensive",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur League of Legends",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
-      "responses": [
-        {
-          "text": "Live 24h sur Age Of Empire IV",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Apex Legend",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur Counter Strike Global Offensive",
-          "isGood": false
-        },
-        {
-          "text": "Live 24h sur League of ",
           "isGood": true
         }
       ]

@@ -1,0 +1,319 @@
+{
+  "questions": [
+    {
+      "question": "Que signifie \"PDC\" ?",
+      "responses": [
+        {
+          "text": "Petit drift contrôlé",
+          "isGood": false
+        },
+        {
+          "text": "Poules des champs",
+          "isGood": false
+        },
+        {
+          "text": "Plots de chantier",
+          "isGood": true
+        },
+        {
+          "text": "Packs de cidre",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Pour qualifier une chose qui convient à une situation, on utilise la locution latine..." ,
+      "responses": [
+        {
+          "text": "Tournesol",
+          "isGood": false
+        },
+        {
+          "text": "Ad hoc",
+          "isGood": true
+        },
+        {
+          "text": "Tintin",
+          "isGood": false
+        },
+        {
+          "text": "Milou",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Que promet le célèbre streamer Monstru lorsqu'il aura la fibre ?",
+      "responses": [
+        {
+          "text": "Live 24h sur Age Of Empire IV",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Apex Legend",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h sur Counter Strike Global Offensive",
+          "isGood": false
+        },
+        {
+          "text": "Live 24h en ARAM sur League of Legends",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel est le nom de code de l'agent secret que Jean Dujardin a incarné 2 fois au cinéma ?" ,
+      "responses": [
+        {
+          "text": "RTL 2",
+          "isGood": false
+        },
+        {
+          "text": "CAC 40",
+          "isGood": false
+        },
+        {
+          "text": "OSS 117",
+          "isGood": true
+        },
+        {
+          "text": "3615 ULLA",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Lors de l'InsaLan 2022, à quelle position la PDC a-t-elle terminé sur League of Legends ?",
+      "responses": [
+        {
+          "text": "1ère",
+          "isGood": false
+        },
+        {
+          "text": "2ème",
+          "isGood": false
+        },
+        {
+          "text": "3ème",
+          "isGood": false
+        },
+        {
+          "text": "4ème",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Combien de Coupes du monde de football l'équipe de France a-t-elle gagné jusqu'en 2020 ?" ,
+      "responses": [
+        {
+          "text": "1",
+          "isGood": false
+        },
+        {
+          "text": "2",
+          "isGood": true
+        },
+        {
+          "text": "3",
+          "isGood": false
+        },
+        {
+          "text": "4",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel compositeur allemand devenu sourd a continué à écrire des oeuvres célèbres ?" ,
+      "responses": [
+        {
+          "text": "Beethoven",
+          "isGood": true
+        },
+        {
+          "text": "Mozart",
+          "isGood": false
+        },
+        {
+          "text": "Chopin",
+          "isGood": false
+        },
+        {
+          "text": "Elvis Presley",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Comment conjugue-t-on le verbe \"conclure\" à la 2ème personne du singulier à l'imparfait ?" ,
+      "responses": [
+        {
+          "text": "Tu as conclu",
+          "isGood": false
+        },
+        {
+          "text": "Vous avez conclu",
+          "isGood": false
+        },
+        {
+          "text": "Vous concluez",
+          "isGood": false
+        },
+        {
+          "text": "Tu concluais",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "De quelle comédie musicale la chanson \"Belle\" est-elle extraite ?" ,
+      "responses": [
+        {
+          "text": "Notre-Dame de Paris",
+          "isGood": true
+        },
+        {
+          "text": "Roméo et Juliette",
+          "isGood": false
+        },
+        {
+          "text": "Dracula",
+          "isGood": false
+        },
+        {
+          "text": "Les Dix Commandements",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Comment doit-on couper des légumes pour en faire une julienne ?" ,
+      "responses": [
+        {
+          "text": "En gros cubes",
+          "isGood": false
+        },
+        {
+          "text": "En minuscules billes",
+          "isGood": false
+        },
+        {
+          "text": "En fins bâtonnets",
+          "isGood": true
+        },
+        {
+          "text": "En petits triangles",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle série à succès est tirée d'une bande dessinée ?" ,
+      "responses": [
+        {
+          "text": "Breaking Bad",
+          "isGood": false
+        },
+        {
+          "text": "House of Cards",
+          "isGood": false
+        },
+        {
+          "text": "Homeland",
+          "isGood": false
+        },
+        {
+          "text": "The Walking Dead",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Dans quel jeu vidéo mobile Ariana Grande a-t-elle eu droit à son propre personnage jouable ?" ,
+      "responses": [
+        {
+          "text": "Pokémon Go",
+          "isGood": false
+        },
+        {
+          "text": "Angry Birds 2",
+          "isGood": false
+        },
+        {
+          "text": "Fortnite",
+          "isGood": false
+        },
+        {
+          "text": "Final Fantasy Brave Exvius",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel duo a fait le show en danse et en chanson à la mi-temps du Super Bowl 2020 ?" ,
+      "responses": [
+        {
+          "text": "Beyoncé et Jay-Z",
+          "isGood": false
+        },
+        {
+          "text": "J-Lo et Shakira",
+          "isGood": true
+        },
+        {
+          "text": "Lady Gaga et Madonna",
+          "isGood": false
+        },
+        {
+          "text": "Rihanna et Mariah Carey",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "De quelle substance les perles produites par les huîtres sont-elles faites ?" ,
+      "responses": [
+        {
+          "text": "De l'opaline",
+          "isGood": false
+        },
+        {
+          "text": "De l'ambre",
+          "isGood": false
+        },
+        {
+          "text": "De l'or",
+          "isGood": false
+        },
+        {
+          "text": "De la nacre",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "De quel pays le chat angora est-il originaire ?" ,
+      "responses": [
+        {
+          "text": "L'Égypte",
+          "isGood": false
+        },
+        {
+          "text": "La Turquie",
+          "isGood": true
+        },
+        {
+          "text": "L'Iran",
+          "isGood": false
+        },
+        {
+          "text": "L'Inde",
+          "isGood": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,319 @@
+{
+  "questions": [
+    {
+      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ?",
+      "responses": [
+        {
+          "text": "1",
+          "isGood": false
+        },
+        {
+          "text": "2",
+          "isGood": true
+        },
+        {
+          "text": "3",
+          "isGood": false
+        },
+        {
+          "text": "4",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Continuez ce tube de France Gall : \"Résiste, prouve que tu existes, cherche ton bonheur..." ,
+      "responses": [
+        {
+          "text": "Partout",
+          "isGood": true
+        },
+        {
+          "text": "Ici",
+          "isGood": false
+        },
+        {
+          "text": "Là-bas",
+          "isGood": false
+        },
+        {
+          "text": "Au loin",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
+      "responses": [
+        {
+          "text": "Cadre ingénieur",
+          "isGood": false
+        },
+        {
+          "text": "Grande soeur de Braziy",
+          "isGood": true
+        },
+        {
+          "text": "GRAS DE CACA PROUT",
+          "isGood": false
+        },
+        {
+          "text": "Mascotte",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans la série \"The Walking Dead\", les héros sont poursuivis par des hordes de..." ,
+      "responses": [
+        {
+          "text": "Femmes amoureuses",
+          "isGood": false
+        },
+        {
+          "text": "Zombies affamés",
+          "isGood": false
+        },
+        {
+          "text": "Canards enragés",
+          "isGood": false
+        },
+        {
+          "text": "Ch'tis de téléréalité",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "???",
+      "responses": [
+        {
+          "text": "1ère",
+          "isGood": false
+        },
+        {
+          "text": "2ème",
+          "isGood": false
+        },
+        {
+          "text": "3ème",
+          "isGood": false
+        },
+        {
+          "text": "4ème",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Combien de Ballons d'Or a remporté Cristiano Ronaldo jusqu'en 2020 ?" ,
+      "responses": [
+        {
+          "text": "3",
+          "isGood": false
+        },
+        {
+          "text": "5",
+          "isGood": true
+        },
+        {
+          "text": "7",
+          "isGood": false
+        },
+        {
+          "text": "9",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "???" ,
+      "responses": [
+        {
+          "text": "Beethoven",
+          "isGood": true
+        },
+        {
+          "text": "Mozart",
+          "isGood": false
+        },
+        {
+          "text": "Chopin",
+          "isGood": false
+        },
+        {
+          "text": "Elvis Presley",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Comment conjugue-t-on le verbe \"conclure\" à la 2ème personne du singulier à l'imparfait ?" ,
+      "responses": [
+        {
+          "text": "Tu as conclu",
+          "isGood": false
+        },
+        {
+          "text": "Vous avez conclu",
+          "isGood": false
+        },
+        {
+          "text": "Vous concluez",
+          "isGood": false
+        },
+        {
+          "text": "Tu concluais",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "De quelle comédie musicale la chanson \"Belle\" est-elle extraite ?" ,
+      "responses": [
+        {
+          "text": "Notre-Dame de Paris",
+          "isGood": true
+        },
+        {
+          "text": "Roméo et Juliette",
+          "isGood": false
+        },
+        {
+          "text": "Dracula",
+          "isGood": false
+        },
+        {
+          "text": "Les Dix Commandements",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Comment doit-on couper des légumes pour en faire une julienne ?" ,
+      "responses": [
+        {
+          "text": "En gros cubes",
+          "isGood": false
+        },
+        {
+          "text": "En minuscules billes",
+          "isGood": false
+        },
+        {
+          "text": "En fins bâtonnets",
+          "isGood": true
+        },
+        {
+          "text": "En petits triangles",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle série à succès est tirée d'une bande dessinée ?" ,
+      "responses": [
+        {
+          "text": "Breaking Bad",
+          "isGood": false
+        },
+        {
+          "text": "House of Cards",
+          "isGood": false
+        },
+        {
+          "text": "Homeland",
+          "isGood": false
+        },
+        {
+          "text": "The Walking Dead",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Dans quel jeu vidéo mobile Ariana Grande a-t-elle eu droit à son propre personnage jouable ?" ,
+      "responses": [
+        {
+          "text": "Pokémon Go",
+          "isGood": false
+        },
+        {
+          "text": "Angry Birds 2",
+          "isGood": false
+        },
+        {
+          "text": "Fortnite",
+          "isGood": false
+        },
+        {
+          "text": "Final Fantasy Brave Exvius",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel duo a fait le show en danse et en chanson à la mi-temps du Super Bowl 2020 ?" ,
+      "responses": [
+        {
+          "text": "Beyoncé et Jay-Z",
+          "isGood": false
+        },
+        {
+          "text": "J-Lo et Shakira",
+          "isGood": true
+        },
+        {
+          "text": "Lady Gaga et Madonna",
+          "isGood": false
+        },
+        {
+          "text": "Rihanna et Mariah Carey",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "De quelle substance les perles produites par les huîtres sont-elles faites ?" ,
+      "responses": [
+        {
+          "text": "De l'opaline",
+          "isGood": false
+        },
+        {
+          "text": "De l'ambre",
+          "isGood": false
+        },
+        {
+          "text": "De l'or",
+          "isGood": false
+        },
+        {
+          "text": "De la nacre",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "De quel pays le chat angora est-il originaire ?" ,
+      "responses": [
+        {
+          "text": "L'Égypte",
+          "isGood": false
+        },
+        {
+          "text": "La Turquie",
+          "isGood": true
+        },
+        {
+          "text": "L'Iran",
+          "isGood": false
+        },
+        {
+          "text": "L'Inde",
+          "isGood": false
+        }
+      ]
+    }
+  ]
+}

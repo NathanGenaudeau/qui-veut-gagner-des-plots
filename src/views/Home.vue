@@ -35,7 +35,7 @@
 
 <script>
 import Question from '@/components/Question.vue';
-import QuestionsList from '@/assets/questionsFelray.json';
+import QuestionsList from '@/assets/questionsDwearky.json';
 
 export default {
   name: 'Home',
