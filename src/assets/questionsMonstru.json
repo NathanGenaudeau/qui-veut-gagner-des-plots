@@ -1,0 +1,319 @@
+{
+  "questions": [
+    {
+      "question": "Qui a remporté la 1ème édition de la célèbre compétition Koh-Lanta Cup ?",
+      "responses": [
+        {
+          "text": "Braziy",
+          "isGood": false
+        },
+        {
+          "text": "Dwearky",
+          "isGood": false
+        },
+        {
+          "text": "Lolox",
+          "isGood": true
+        },
+        {
+          "text": "Felray",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Laquelle de ces propositions ne se rapporte pas à un élément du corps humain ?" ,
+      "responses": [
+        {
+          "text": "Le cerveau",
+          "isGood": false
+        },
+        {
+          "text": "La cervicale",
+          "isGood": false
+        },
+        {
+          "text": "Le cervelet",
+          "isGood": false
+        },
+        {
+          "text": "Le cervelas",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel est le rank actuel de Bibi sur League of Legends ?",
+      "responses": [
+        {
+          "text": "Platine II-I",
+          "isGood": false
+        },
+        {
+          "text": "Diamant IV-III",
+          "isGood": true
+        },
+        {
+          "text": "Diamant II-I",
+          "isGood": false
+        },
+        {
+          "text": "Master",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel tube Claude François a-t-il sorti en mars 1978 ?" ,
+      "responses": [
+        {
+          "text": "Alexandrie Alexandra",
+          "isGood": true
+        },
+        {
+          "text": "Alessandrie Alessandra",
+          "isGood": false
+        },
+        {
+          "text": "Allez Sandri Allez Sandra",
+          "isGood": false
+        },
+        {
+          "text": "Olé Sandri Olé Sandra",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quelles sont les couleurs de la PDC ?",
+      "responses": [
+        {
+          "text": "#FFFFFF et #FF7D08",
+          "isGood": true
+        },
+        {
+          "text": "#000000 et #FF7D08",
+          "isGood": false
+        },
+        {
+          "text": "#FFFFFF et #1012F7",
+          "isGood": false
+        },
+        {
+          "text": "#000000 et #1012F7",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Continuez ce tube de France Gall : \"Résiste, prouve que tu existes, cherche ton bonheur..." ,
+      "responses": [
+        {
+          "text": "Partout",
+          "isGood": true
+        },
+        {
+          "text": "Ici",
+          "isGood": false
+        },
+        {
+          "text": "Là-bas",
+          "isGood": false
+        },
+        {
+          "text": "Au loin",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans la mythologie, Méduse avait le pouvoir de transformer celui qui la regardait en..." ,
+      "responses": [
+        {
+          "text": "Ripoux",
+          "isGood": false
+        },
+        {
+          "text": "Popeye",
+          "isGood": false
+        },
+        {
+          "text": "Doc Martin",
+          "isGood": false
+        },
+        {
+          "text": "Pierre",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Dans quel jeu vidéo peut-on jouer à l'évènement nommé \"La vengeance du Dr Schakalstein\" à chaque Halloween?" ,
+      "responses": [
+        {
+          "text": "Overwatch",
+          "isGood": true
+        },
+        {
+          "text": "Apex Legends",
+          "isGood": false
+        },
+        {
+          "text": "Call of Duty",
+          "isGood": false
+        },
+        {
+          "text": "Fortnite",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "En quelle année est né le champion de tennis Rafael Nadal ?" ,
+      "responses": [
+        {
+          "text": "1983",
+          "isGood": false
+        },
+        {
+          "text": "1986",
+          "isGood": true
+        },
+        {
+          "text": "1990",
+          "isGood": false
+        },
+        {
+          "text": "1995",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "En 2020, combien de pays composent l'Union européenne ?" ,
+      "responses": [
+        {
+          "text": "26",
+          "isGood": false
+        },
+        {
+          "text": "27",
+          "isGood": true
+        },
+        {
+          "text": "28",
+          "isGood": false
+        },
+        {
+          "text": "29",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans quelle série de Disney Miley Cyrus a-t-elle démarré sa carrière ?" ,
+      "responses": [
+        {
+          "text": "Hannah Montana",
+          "isGood": true
+        },
+        {
+          "text": "Phénomène Raven",
+          "isGood": false
+        },
+        {
+          "text": "Descendants",
+          "isGood": false
+        },
+        {
+          "text": "Violetta",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel vin blanc peut être moelleux ou demi-sec ?" ,
+      "responses": [
+        {
+          "text": "Le coteaux-du-layon",
+          "isGood": true
+        },
+        {
+          "text": "Le rielsing",
+          "isGood": false
+        },
+        {
+          "text": "Le chablis",
+          "isGood": false
+        },
+        {
+          "text": "Le bourgogne aligoté",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Que sont les chiens de prairie ?" ,
+      "responses": [
+        {
+          "text": "Des rongeurs",
+          "isGood": true
+        },
+        {
+          "text": "Des félins",
+          "isGood": false
+        },
+        {
+          "text": "Des canidés",
+          "isGood": false
+        },
+        {
+          "text": "Des insectes",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "En quelle année a eu lieu une trêve non officielle à Noël sur le front de l'Ouest ?" ,
+      "responses": [
+        {
+          "text": "1914",
+          "isGood": true
+        },
+        {
+          "text": "1922",
+          "isGood": false
+        },
+        {
+          "text": "1918",
+          "isGood": false
+        },
+        {
+          "text": "1920",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Lequel de ces films a reçu 5 Oscars ?" ,
+      "responses": [
+        {
+          "text": "Barry Lyndon",
+          "isGood": false
+        },
+        {
+          "text": "Gladiator",
+          "isGood": true
+        },
+        {
+          "text": "La Leçon de piano",
+          "isGood": false
+        },
+        {
+          "text": "Rain Man",
+          "isGood": false
+        }
+      ]
+    }
+  ]
+}

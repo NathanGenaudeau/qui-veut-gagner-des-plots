@@ -25,7 +25,6 @@
         <div class="bonus1" @click="bonusMoitie('bonus1')">50/50</div>
         <div class="bonus2" @click="bonus('bonus2')">Appel</div>
         <div class="bonus3" @click="bonus('bonus3')">Public</div>
-        <div class="bonus4" @click="bonus('bonus4')">Mystère</div>
       </div>
     </div>
 
@@ -36,7 +35,7 @@
 
 <script>
 import Question from '@/components/Question.vue';
-import QuestionsList from '@/assets/questions.json';
+import QuestionsList from '@/assets/questionsFelray.json';
 
 export default {
   name: 'Home',
@@ -158,7 +157,7 @@ export default {
 }
 .bonus {
   position: absolute;
-  top: 150px;
+  top: 175px;
   left: -200px;
 }
 .bonus > div {
