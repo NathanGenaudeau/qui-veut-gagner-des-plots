@@ -106,107 +106,107 @@
       ]
     },
     {
-      "question": "Combien de Coupes du monde de football l'équipe de France a-t-elle gagné jusqu'en 2020 ?" ,
+      "question": "Quel nom de fromage désigne également un domaine possédé par un aristocrate ?" ,
       "responses": [
         {
-          "text": "1",
+          "text": "Bleu",
           "isGood": false
         },
         {
-          "text": "2",
-          "isGood": true
-        },
-        {
-          "text": "3",
+          "text": "Camembert",
           "isGood": false
         },
         {
-          "text": "4",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Quel compositeur allemand devenu sourd a continué à écrire des oeuvres célèbres ?" ,
-      "responses": [
-        {
-          "text": "Beethoven",
-          "isGood": true
-        },
-        {
-          "text": "Mozart",
+          "text": "Brie",
           "isGood": false
         },
         {
-          "text": "Chopin",
-          "isGood": false
-        },
-        {
-          "text": "Elvis Presley",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Comment conjugue-t-on le verbe \"conclure\" à la 2ème personne du singulier à l'imparfait ?" ,
-      "responses": [
-        {
-          "text": "Tu as conclu",
-          "isGood": false
-        },
-        {
-          "text": "Vous avez conclu",
-          "isGood": false
-        },
-        {
-          "text": "Vous concluez",
-          "isGood": false
-        },
-        {
-          "text": "Tu concluais",
+          "text": "Comté",
           "isGood": true
         }
       ]
     },
     {
-      "question": "De quelle comédie musicale la chanson \"Belle\" est-elle extraite ?" ,
+      "question": "Il existe une variante du jeu de dames appelée \"à qui perd ...\" ?" ,
       "responses": [
         {
-          "text": "Notre-Dame de Paris",
+          "text": "Boude",
+          "isGood": false
+        },
+        {
+          "text": "Triche",
+          "isGood": false
+        },
+        {
+          "text": "Pleure",
+          "isGood": false
+        },
+        {
+          "text": "Gagne",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Une tarte aux pommes cuite \"à l'envers\" est une tarte ..." ,
+      "responses": [
+        {
+          "text": "Bouleversée",
+          "isGood": false
+        },
+        {
+          "text": "Renversée",
           "isGood": true
         },
         {
-          "text": "Roméo et Juliette",
+          "text": "Retournée",
           "isGood": false
         },
         {
-          "text": "Dracula",
-          "isGood": false
-        },
-        {
-          "text": "Les Dix Commandements",
+          "text": "Chamboulée",
           "isGood": false
         }
       ]
     },
     {
-      "question": "Comment doit-on couper des légumes pour en faire une julienne ?" ,
+      "question": "En 1991, la guerre du Golfe est déclenchée suite à l'invasion du Koweït par ..." ,
       "responses": [
         {
-          "text": "En gros cubes",
-          "isGood": false
-        },
-        {
-          "text": "En minuscules billes",
-          "isGood": false
-        },
-        {
-          "text": "En fins bâtonnets",
+          "text": "L'Irak",
           "isGood": true
         },
         {
-          "text": "En petits triangles",
+          "text": "La Libye",
           "isGood": false
+        },
+        {
+          "text": "La Syrie",
+          "isGood": false
+        },
+        {
+          "text": "L'Iran",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans une cathédrale gothique, certains murs sont soutenus par ..." ,
+      "responses": [
+        {
+          "text": "Un arc-tournant",
+          "isGood": false
+        },
+        {
+          "text": "Un arc-bouclant",
+          "isGood": false
+        },
+        {
+          "text": "Un arc-voûtant",
+          "isGood": false
+        },
+        {
+          "text": "Un arc-boutant",
+          "isGood": true
         }
       ]
     },

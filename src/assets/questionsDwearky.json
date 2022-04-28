@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ?",
+      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ? https://www.youtube.com/watch?v=3Po0yMJVX-A",
       "responses": [
         {
           "text": "1",
@@ -106,6 +106,27 @@
       ]
     },
     {
+      "question": "Le légume dont on savoure la base des feuilles est..." ,
+      "responses": [
+        {
+          "text": "L'artichaut",
+          "isGood": true
+        },
+        {
+          "text": "L'aubergine",
+          "isGood": false
+        },
+        {
+          "text": "La carotte",
+          "isGood": false
+        },
+        {
+          "text": "La pomme de terre",
+          "isGood": false
+        }
+      ]
+    },
+    {
       "question": "Combien de Ballons d'Or a remporté Cristiano Ronaldo jusqu'en 2020 ?" ,
       "responses": [
         {
@@ -127,65 +148,44 @@
       ]
     },
     {
-      "question": "???" ,
+      "question": "Le coyote est un animal sauvage voisin du loup et du ..." ,
       "responses": [
         {
-          "text": "Beethoven",
-          "isGood": true
-        },
-        {
-          "text": "Mozart",
+          "text": "Blaireau",
           "isGood": false
         },
         {
-          "text": "Chopin",
+          "text": "Raton laveur",
           "isGood": false
         },
         {
-          "text": "Elvis Presley",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Comment conjugue-t-on le verbe \"conclure\" à la 2ème personne du singulier à l'imparfait ?" ,
-      "responses": [
-        {
-          "text": "Tu as conclu",
+          "text": "Chat",
           "isGood": false
         },
         {
-          "text": "Vous avez conclu",
-          "isGood": false
-        },
-        {
-          "text": "Vous concluez",
-          "isGood": false
-        },
-        {
-          "text": "Tu concluais",
+          "text": "Chacal",
           "isGood": true
         }
       ]
     },
     {
-      "question": "De quelle comédie musicale la chanson \"Belle\" est-elle extraite ?" ,
+      "question": "Dans les années 40, qui a écrit et interprété la chanson \"Mes jeunes années\" ?",
       "responses": [
         {
-          "text": "Notre-Dame de Paris",
+          "text": "Yves Montand",
+          "isGood": false
+        },
+        {
+          "text": "Charles Aznavour",
+          "isGood": false
+        },
+        {
+          "text": "Georges Brassens",
+          "isGood": false
+        },
+        {
+          "text": "Charles Trénet",
           "isGood": true
-        },
-        {
-          "text": "Roméo et Juliette",
-          "isGood": false
-        },
-        {
-          "text": "Dracula",
-          "isGood": false
-        },
-        {
-          "text": "Les Dix Commandements",
-          "isGood": false
         }
       ]
     },
