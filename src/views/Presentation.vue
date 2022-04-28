@@ -1,12 +1,22 @@
 <template>
   <div class="presentation">
-    <router-link class="start" :to="{ name: 'Home' }">Jouer</router-link>
+    <button class="start" @click="play">Jouer</button>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Presentation',
+  methods: {
+    play() {
+      const audio = new Audio('generique_qvgdp.mp3');
+      audio.volume = 0.1;
+      audio.play();
+      setTimeout(() => {
+        this.$router.push('/home');
+      }, 10000);
+    }
+  }
 };
 </script>
 

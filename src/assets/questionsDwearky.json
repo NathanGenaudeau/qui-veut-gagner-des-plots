@@ -88,20 +88,20 @@
       "question": "???",
       "responses": [
         {
-          "text": "1ère",
+          "text": "?",
           "isGood": false
         },
         {
-          "text": "2ème",
+          "text": "?",
           "isGood": false
         },
         {
-          "text": "3ème",
+          "text": "?",
           "isGood": false
         },
         {
-          "text": "4ème",
-          "isGood": true
+          "text": "?",
+          "isGood": false
         }
       ]
     },

@@ -53,6 +53,21 @@ export default {
   margin-top: 20px;
   padding-inline: 50px;
 }
+.question > div {
+  -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadeout {
+  from { opacity: 1; }
+  to   { opacity: 0; }
+}
+
 .responseBody {
   margin: 10px 0;
   display: flex;

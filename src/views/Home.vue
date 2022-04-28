@@ -4,9 +4,9 @@
     <div class="paliers">
       <div class="palier">3000 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>1000 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>500 <img class="plot_png" src="/plot.png" alt="plots"/></div>
-      <div>300 <img class="plot_png" src="/plot.png" alt="plots"/></div>
-      <div>180 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>500 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>300 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div>180 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div class="palier">120 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>80 <img class="plot_png" src="plot.png" alt="plots"/></div>
       <div>60 <img class="plot_png" src="plot.png" alt="plots"/></div>
@@ -53,6 +53,9 @@ export default {
   },
   methods: {
     nextQuestion() {
+      const audio = new Audio('question_qvgdp.mp3');
+      audio.volume = 0.1;
+      audio.play();
       this.currentQuestion++;
       const answers = document.getElementsByClassName('response');
       for (let i = 0; i < answers.length; i++) {
@@ -122,10 +125,14 @@ export default {
   align-items: center;
   width: 100%;
   height: 1080px;
-  background-image: url("fond_pdc.jpg");
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("background_qvgdp.png");
   background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  from { opacity: 0.5; }
+  to   { opacity: 1; }
 }
 
 .paliers {
