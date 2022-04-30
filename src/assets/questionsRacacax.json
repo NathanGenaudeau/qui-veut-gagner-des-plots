@@ -43,18 +43,18 @@
       ]
     },
     {
-      "question": "Sur Trackmania, comment appelle-t-on les vitesses ?",
+      "question": "Sur Trackmania, comment nomme-t-on habituellement les vitesses ?",
       "responses": [
         {
-          "text": "les beers",
+          "text": "les bears",
           "isGood": false
         },
         {
-          "text": "les grills",
+          "text": "les tears",
           "isGood": false
         },
         {
-          "text": "les girls",
+          "text": "les pears",
           "isGood": false
         },
         {
@@ -85,22 +85,22 @@
       ]
     },
     {
-      "question": "question tm",
+      "question": "Quel joueur Trackmania a été impliqué dans une affaire de triche il y a 1 an ?",
       "responses": [
         {
-          "text": "?",
+          "text": "Wirtual",
           "isGood": false
         },
         {
-          "text": "?",
+          "text": "CarlJr",
           "isGood": false
         },
         {
-          "text": "?",
-          "isGood": false
+          "text": "Riolu",
+          "isGood": true
         },
         {
-          "text": "?",
+          "text": "RideUnMax",
           "isGood": false
         }
       ]
@@ -211,106 +211,106 @@
       ]
     },
     {
-      "question": "Quelle série à succès est tirée d'une bande dessinée ?" ,
+      "question": "Située dans le Jura, la commune d'Arbois est particulièrement réputée pour ..." ,
       "responses": [
         {
-          "text": "Breaking Bad",
+          "text": "Sa porcelaine",
           "isGood": false
         },
         {
-          "text": "House of Cards",
-          "isGood": false
-        },
-        {
-          "text": "Homeland",
-          "isGood": false
-        },
-        {
-          "text": "The Walking Dead",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Dans quel jeu vidéo mobile Ariana Grande a-t-elle eu droit à son propre personnage jouable ?" ,
-      "responses": [
-        {
-          "text": "Pokémon Go",
-          "isGood": false
-        },
-        {
-          "text": "Angry Birds 2",
-          "isGood": false
-        },
-        {
-          "text": "Fortnite",
-          "isGood": false
-        },
-        {
-          "text": "Final Fantasy Brave Exvius",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Quel duo a fait le show en danse et en chanson à la mi-temps du Super Bowl 2020 ?" ,
-      "responses": [
-        {
-          "text": "Beyoncé et Jay-Z",
-          "isGood": false
-        },
-        {
-          "text": "J-Lo et Shakira",
+          "text": "Ses vins",
           "isGood": true
         },
         {
-          "text": "Lady Gaga et Madonna",
+          "text": "Son marbre",
           "isGood": false
         },
         {
-          "text": "Rihanna et Mariah Carey",
+          "text": "Ses tapisseries",
           "isGood": false
         }
       ]
     },
     {
-      "question": "De quelle substance les perles produites par les huîtres sont-elles faites ?" ,
+      "question": "Autrefois employé pour la guerre ou la chasse, le roussin était un..." ,
       "responses": [
         {
-          "text": "De l'opaline",
+          "text": "Chien",
           "isGood": false
         },
         {
-          "text": "De l'ambre",
+          "text": "Aigle",
           "isGood": false
         },
         {
-          "text": "De l'or",
-          "isGood": false
-        },
-        {
-          "text": "De la nacre",
+          "text": "Cheval",
           "isGood": true
+        },
+        {
+          "text": "Pigeon voyageur",
+          "isGood": false
         }
       ]
     },
     {
-      "question": "De quel pays le chat angora est-il originaire ?" ,
+      "question": "L'une des façons de coudre ensemble deux morceaux de tissu est la couture..." ,
       "responses": [
         {
-          "text": "L'Égypte",
-          "isGood": false
-        },
-        {
-          "text": "La Turquie",
+          "text": "Anglaise",
           "isGood": true
         },
         {
-          "text": "L'Iran",
+          "text": "Russe",
           "isGood": false
         },
         {
-          "text": "L'Inde",
+          "text": "Indienne",
+          "isGood": false
+        },
+        {
+          "text": "Hollandaise",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Laquelle de ces oeuvres a été écrite par André Malraux ?",
+      "responses": [
+        {
+          "text": "La Condition humaine",
+          "isGood": true
+        },
+        {
+          "text": "La Voix humaine",
+          "isGood": false
+        },
+        {
+          "text": "La Bête humaine",
+          "isGood": false
+        },
+        {
+          "text": "L'Age d'homme",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans \"San-Antonio\", l'énorme et truculent Bérurier est..." ,
+      "responses": [
+        {
+          "text": "Inspecteur",
+          "isGood": false
+        },
+        {
+          "text": "Commisaire",
+          "isGood": true
+        },
+        {
+          "text": "Sergent",
+          "isGood": false
+        },
+        {
+          "text": "Lieutenant",
           "isGood": false
         }
       ]

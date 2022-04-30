@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ? https://www.youtube.com/watch?v=3Po0yMJVX-A",
+      "question": "À combien de LAN sur League of Legends la PDC a-t-elle participé ?",
       "responses": [
         {
           "text": "1",
@@ -85,23 +85,44 @@
       ]
     },
     {
-      "question": "???",
+      "question": "Qui a déjà remporté une Tracacax cup ?",
       "responses": [
         {
-          "text": "?",
+          "text": "Nakline",
+          "isGood": true
+        },
+        {
+          "text": "RideUnMax",
           "isGood": false
         },
         {
-          "text": "?",
+          "text": "LaRazta",
           "isGood": false
         },
         {
-          "text": "?",
+          "text": "Racacax",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "En langage sportif, gagner d'une courte longueur, c'est \"arriver dans un..." ,
+      "responses": [
+        {
+          "text": "Foulard",
           "isGood": false
         },
         {
-          "text": "?",
+          "text": "Fichu",
           "isGood": false
+        },
+        {
+          "text": "Mouchoir",
+          "isGood": true
+        },
+        {
+          "text": "Châle",
+          "isGood": true
         }
       ]
     },
@@ -190,127 +211,106 @@
       ]
     },
     {
-      "question": "Comment doit-on couper des légumes pour en faire une julienne ?" ,
+      "question": "La personne qui surveille le vieillissement des vins après la récolte est un..." ,
       "responses": [
         {
-          "text": "En gros cubes",
+          "text": "Conservateur",
           "isGood": false
         },
         {
-          "text": "En minuscules billes",
+          "text": "Surveillant",
           "isGood": false
         },
         {
-          "text": "En fins bâtonnets",
-          "isGood": true
-        },
-        {
-          "text": "En petits triangles",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Quelle série à succès est tirée d'une bande dessinée ?" ,
-      "responses": [
-        {
-          "text": "Breaking Bad",
+          "text": "Tuteur",
           "isGood": false
         },
         {
-          "text": "House of Cards",
-          "isGood": false
-        },
-        {
-          "text": "Homeland",
-          "isGood": false
-        },
-        {
-          "text": "The Walking Dead",
+          "text": "Eleveur",
           "isGood": true
         }
       ]
     },
     {
-      "question": "Dans quel jeu vidéo mobile Ariana Grande a-t-elle eu droit à son propre personnage jouable ?" ,
+      "question": "Un navigateur qui évlaue sa position en tenant compte de la dérive, \"navigue..." ,
       "responses": [
         {
-          "text": "Pokémon Go",
+          "text": "A la traîne",
           "isGood": false
         },
         {
-          "text": "Angry Birds 2",
+          "text": "A l'envi",
           "isGood": false
         },
         {
-          "text": "Fortnite",
-          "isGood": false
-        },
-        {
-          "text": "Final Fantasy Brave Exvius",
-          "isGood": true
-        }
-      ]
-    },
-    {
-      "question": "Quel duo a fait le show en danse et en chanson à la mi-temps du Super Bowl 2020 ?" ,
-      "responses": [
-        {
-          "text": "Beyoncé et Jay-Z",
-          "isGood": false
-        },
-        {
-          "text": "J-Lo et Shakira",
+          "text": "A l'estime",
           "isGood": true
         },
         {
-          "text": "Lady Gaga et Madonna",
-          "isGood": false
-        },
-        {
-          "text": "Rihanna et Mariah Carey",
+          "text": "A l'approche",
           "isGood": false
         }
       ]
     },
     {
-      "question": "De quelle substance les perles produites par les huîtres sont-elles faites ?" ,
+      "question": "En vieillissant, certain vins peuvent prendre la couleur..." ,
       "responses": [
         {
-          "text": "De l'opaline",
+          "text": "Peau de pêche",
           "isGood": false
         },
         {
-          "text": "De l'ambre",
-          "isGood": false
-        },
-        {
-          "text": "De l'or",
-          "isGood": false
-        },
-        {
-          "text": "De la nacre",
+          "text": "Pelure d'oignon",
           "isGood": true
+        },
+        {
+          "text": "Poil de carotte",
+          "isGood": false
+        },
+        {
+          "text": "Queue de cerise",
+          "isGood": false
         }
       ]
     },
     {
-      "question": "De quel pays le chat angora est-il originaire ?" ,
+      "question": "Sur le circuit du Grand Prix de Monaco, les pilotes de formule 1 passent le virage...",
       "responses": [
         {
-          "text": "L'Égypte",
+          "text": "De Sainte-Foy",
           "isGood": false
         },
         {
-          "text": "La Turquie",
+          "text": "De Sainte-Dévote",
           "isGood": true
         },
         {
-          "text": "L'Iran",
+          "text": "De Sainte-Prudence",
           "isGood": false
         },
         {
-          "text": "L'Inde",
+          "text": "De Sainte-Clémence",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "En 1996, quel acteur interprète Beaumarchais dans \"Beaumarchais l'insolent\" ?" ,
+      "responses": [
+        {
+          "text": "Fabrice Luchini",
+          "isGood": true
+        },
+        {
+          "text": "Gérard Depardieu",
+          "isGood": false
+        },
+        {
+          "text": "Bernard Giraudeau",
+          "isGood": false
+        },
+        {
+          "text": "Daniel Auteuil",
           "isGood": false
         }
       ]
