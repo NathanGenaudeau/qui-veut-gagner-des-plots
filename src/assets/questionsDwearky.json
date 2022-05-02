@@ -43,48 +43,6 @@
       ]
     },
     {
-      "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
-      "responses": [
-        {
-          "text": "Cadre ingénieur",
-          "isGood": false
-        },
-        {
-          "text": "Grande soeur de Braziy",
-          "isGood": true
-        },
-        {
-          "text": "GRAS DE CACA PROUT",
-          "isGood": false
-        },
-        {
-          "text": "Mascotte",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Dans la série \"The Walking Dead\", les héros sont poursuivis par des hordes de..." ,
-      "responses": [
-        {
-          "text": "Femmes amoureuses",
-          "isGood": false
-        },
-        {
-          "text": "Zombies affamés",
-          "isGood": false
-        },
-        {
-          "text": "Canards enragés",
-          "isGood": false
-        },
-        {
-          "text": "Ch'tis de téléréalité",
-          "isGood": false
-        }
-      ]
-    },
-    {
       "question": "Qui a déjà remporté une Tracacax cup ?",
       "responses": [
         {
@@ -106,6 +64,48 @@
       ]
     },
     {
+      "question": "Dans la série \"The Walking Dead\", les héros sont poursuivis par des hordes de..." ,
+      "responses": [
+        {
+          "text": "Femmes amoureuses",
+          "isGood": false
+        },
+        {
+          "text": "Zombies affamés",
+          "isGood": true
+        },
+        {
+          "text": "Canards enragés",
+          "isGood": false
+        },
+        {
+          "text": "Ch'tis de téléréalité",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Sur le discord de la PDC, quel rôle n'existe pas ?",
+      "responses": [
+        {
+          "text": "Cadre ingénieur",
+          "isGood": false
+        },
+        {
+          "text": "Grande soeur de Braziy",
+          "isGood": true
+        },
+        {
+          "text": "Coatch LoL",
+          "isGood": false
+        },
+        {
+          "text": "Mascotte",
+          "isGood": false
+        }
+      ]
+    },
+    {
       "question": "En langage sportif, gagner d'une courte longueur, c'est \"arriver dans un..." ,
       "responses": [
         {
@@ -122,7 +122,7 @@
         },
         {
           "text": "Châle",
-          "isGood": true
+          "isGood": false
         }
       ]
     },

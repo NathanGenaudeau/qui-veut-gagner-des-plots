@@ -27,14 +27,23 @@
         <div class="bonus3" @click="bonus('bonus3')">Public</div>
       </div>
     </div>
+    <div class="footer">
+      <div @click="showOne"></div>
+      <div @click="nextQuestion"></div>
+      <div @click="getGains('stop')"></div>
+    </div>
 
-    <div class="show" @click="showOne"></div>
-    <div class="next" @click="nextQuestion" :disabled="disableButton"></div>
+    <Modal :show="showModal" @close="showModal = false" :headerMsg="headerMsg">
+      <template v-slot:body>
+        <div>Félicitation tu repars avec {{ gains }} plots</div>
+      </template>
+    </Modal>
   </div>
 </template>
 
 <script>
 import Question from '@/components/Question.vue';
+import Modal from '@/components/Modal.vue';
 import QuestionsList from '@/assets/questionsDwearky.json';
 
 export default {
@@ -42,13 +51,17 @@ export default {
 
   components: {
     Question,
+    Modal,
   },
 
   data() {
     return {
       questions: QuestionsList.questions,
-      disableButton: false,
       currentQuestion: 0,
+
+      showModal: false,
+      headerMsg: '',
+      gains: 0,
     }
   },
   methods: {
@@ -63,7 +76,6 @@ export default {
         if (answers[i].classList.contains('good')) answers[i].classList.remove('good');
         if (answers[i].classList.contains('bad')) answers[i].classList.remove('bad');
       }
-      this.disableButton = this.currentQuestion + 1 >= this.questions.length;
       const nbPlots = document.getElementsByClassName('currentLevel')[0];
       nbPlots.classList.remove('currentLevel');
       nbPlots.previousElementSibling.classList.add('currentLevel');
@@ -87,6 +99,38 @@ export default {
             answers[i].classList.add('good');
           }
         }
+        setTimeout(() => {
+          this.getGains('lose');
+        }, 5000);
+      }
+      else {
+        if (this.currentQuestion === this.questions.length - 1) {
+          this.getGains('win');
+        }
+      }
+    },
+    getGains(state) {
+      switch (state) {
+        case 'win':
+          this.gains = document.getElementsByClassName('currentLevel')[0].innerHTML.split(' ')[0];
+          this.showModal = true;
+          this.headerMsg = 'C\'est gagné !';
+          break;
+        case 'stop':
+          const gainsStop = document.getElementsByClassName('currentLevel')[0];
+          this.gains = gainsStop.nextElementSibling ? gainsStop.nextElementSibling.innerHTML.split(' ')[0] : 0;
+          this.showModal = true;
+          this.headerMsg = 'C\'est terminé !';
+          break;
+        case 'lose':
+          let gains = document.getElementsByClassName('currentLevel')[0].nextElementSibling || document.getElementsByClassName('currentLevel')[0];
+          while (!gains.classList.contains('palier') && gains.nextElementSibling) {
+            gains = gains.nextElementSibling;
+          }
+          this.gains = gains.nextElementSibling ? gains.innerHTML.split(' ')[0] : 0;
+          this.showModal = true;
+          this.headerMsg = 'C\'est perdu !';
+          break;
       }
     },
     generateRandom(min, max, exclude, exclude2) {
@@ -181,14 +225,15 @@ export default {
   color: #fff;
   cursor: pointer;
 }
-.next {
+.footer {
+  width: 900px;
   display: flex;
-  width: 50px;
-  height: 25px;
+  justify-content: space-between;
+  align-items: center;
+
 }
-.show {
-  display: flex;
-  width: 50px;
+.footer > div {
+  width: 100px;
   height: 25px;
 }
 .currentLevel {

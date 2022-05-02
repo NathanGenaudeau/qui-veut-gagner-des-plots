@@ -14,7 +14,7 @@ export default {
       audio.play();
       setTimeout(() => {
         this.$router.push('/home');
-      }, 10000);
+      }, 9500);
     }
   }
 };
