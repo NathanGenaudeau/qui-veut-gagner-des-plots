@@ -66,7 +66,7 @@ export default {
   },
   methods: {
     nextQuestion() {
-      const audio = new Audio('question_qvgdp.mp3');
+      const audio = new Audio('debut_question.mp3');
       audio.volume = 0.1;
       audio.play();
       this.currentQuestion++;
@@ -79,6 +79,12 @@ export default {
       const nbPlots = document.getElementsByClassName('currentLevel')[0];
       nbPlots.classList.remove('currentLevel');
       nbPlots.previousElementSibling.classList.add('currentLevel');
+      const question = document.getElementById('question');
+
+      question.classList.add('hideQuestion');
+      setTimeout(() => {
+        question.classList.remove('hideQuestion');
+      }, 3000);
     },
     showOne() {
       const resp = document.getElementsByClassName('response');
@@ -99,13 +105,25 @@ export default {
             answers[i].classList.add('good');
           }
         }
+        const audio = new Audio('lose_question.mp3');
+        audio.volume = 0.1;
+        audio.play();
         setTimeout(() => {
           this.getGains('lose');
         }, 5000);
       }
       else {
         if (this.currentQuestion === this.questions.length - 1) {
-          this.getGains('win');
+          const audio = new Audio('win_1000000.mp3');
+          audio.volume = 0.1;
+          audio.play();
+          setTimeout(() => {
+            this.getGains('win');
+          }, 5000);
+        } else {
+          const audio = new Audio('win_question.mp3');
+          audio.volume = 0.1;
+          audio.play();
         }
       }
     },
@@ -249,5 +267,8 @@ export default {
 }
 .used {
   background-color: #888!important;
+}
+.hideQuestion {
+  color: #FF7E09!important;
 }
 </style>

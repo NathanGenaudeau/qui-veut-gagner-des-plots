@@ -9,7 +9,7 @@ export default {
   name: 'Presentation',
   methods: {
     play() {
-      const audio = new Audio('generique_qvgdp.mp3');
+      const audio = new Audio('generique.mp3');
       audio.volume = 0.1;
       audio.play();
       setTimeout(() => {

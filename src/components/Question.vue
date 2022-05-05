@@ -1,7 +1,5 @@
 <template>
-  <div class="question">
-    <div>{{ question }}</div>
-  </div>
+  <div id="question">{{ question }}</div>
   <div class="responseBody">
     <div v-for="response in responses">
       <button class="response" @click="showResponse(response)" :class="{good: response.isGood && this.selectedAnswer === response, bad: !response.isGood && this.selectedAnswer === response}">{{ response.text }}</button>
@@ -37,7 +35,7 @@ export default {
 </script>
 
 <style>
-.question {
+#question {
   display: flex;
   justify-content: center;
   flex-direction: column;
