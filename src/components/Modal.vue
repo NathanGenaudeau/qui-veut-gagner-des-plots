@@ -11,7 +11,7 @@
           </div>
           <div class="modal-footer">
             <slot name="footer">
-              <button class="modal-default-button" @click="$emit('close')">Fermer</button>
+              <button class="modal-default-button" @click="$emit('close')">Fin</button>
             </slot>
           </div>
         </div>
@@ -60,14 +60,19 @@ h1 {
   height: 300px;
   margin: 0 auto;
   padding: 30px;
-  background-color: #fff;
+  background-color: lightgrey;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
   transition: all 0.3s ease;
 }
 
+.modal-header {
+  margin-bottom: 4em;
+}
+
 .modal-body {
   margin: 20px 0;
+  height: 50%;
 }
 
 .modal-default-button {

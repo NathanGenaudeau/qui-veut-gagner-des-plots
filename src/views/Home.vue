@@ -35,7 +35,7 @@
 
     <Modal :show="showModal" @close="showModal = false" :headerMsg="headerMsg">
       <template v-slot:body>
-        <div>Félicitation tu repars avec {{ gains }} plots</div>
+        <div>Félicitation tu repars avec {{ gains }} plots !</div>
       </template>
     </Modal>
   </div>
