@@ -187,7 +187,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 1080px;
-  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("background_qvgdp.png");
+  background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url("/background_qvgdp.png");
   background-size: cover;
   -webkit-animation: fadein 4s; /* Safari, Chrome and Opera > 12.1 */
 }
