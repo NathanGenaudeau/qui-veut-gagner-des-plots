@@ -2,21 +2,21 @@
   <div class="home">
 
     <div class="paliers">
-      <div class="palier">3000 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>1000 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>500 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>300 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>180 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div class="palier">120 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>80 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>60 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>40 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>20 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div class="palier">10 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>5 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>3 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div>2 <img class="plot_png" src="plot.png" alt="plots"/></div>
-      <div class="currentLevel">1 <img class="plot_png" src="plot.png" alt="plots"/></div>
+      <div class="palier">3000 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>1000 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>500 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>300 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>180 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div class="palier">120 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>80 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>60 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>40 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>20 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div class="palier">10 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>5 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>3 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div>2 <img class="plot_png" src="/plot.png" alt="plots"/></div>
+      <div class="currentLevel">1 <img class="plot_png" src="/plot.png" alt="plots"/></div>
     </div>
 
     <div class="parent">
