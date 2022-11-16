@@ -27,7 +27,7 @@ export default {
   align-items: center;
   width: 100%;
   height: 1080px;
-  background-image: url("background_presentation.png");
+  background-image: url("/background_presentation.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
