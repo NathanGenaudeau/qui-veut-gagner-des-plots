@@ -1,22 +1,22 @@
 {
   "questions": [
     {
-      "question": "",
+      "question": "Sur League of Legends, quel est le nom complet du champion que l'on surnomme MF ?",
       "responses": [
         {
-          "text": "",
+          "text": "Miss France",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "Miss Fortune",
           "isGood": true
         },
         {
-          "text": "",
+          "text": "Mister Frédéric",
+          "isGood": false
+        },
+        {
+          "text": "Ma ferrari",
           "isGood": false
         }
       ]
@@ -43,22 +43,22 @@
       ]
     },
     {
-      "question": "",
+      "question": "Sur Worms W.M.D, quelle arme n'existe pas ?",
       "responses": [
         {
-          "text": "",
+          "text": "L'âne de béton",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Le super Mouton",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
+          "text": "La fraise",
+          "isGood": true
         },
         {
-          "text": "",
+          "text": "La banane",
           "isGood": false
         }
       ]
@@ -85,22 +85,22 @@
       ]
     },
     {
-      "question": "",
+      "question": "Lors de la Nantarena 22.2, contre quelle équipe la PDC a-t-elle perdu en poule ?",
       "responses": [
         {
-          "text": "",
+          "text": "GROLEM",
+          "isGood": true
+        },
+        {
+          "text": "Le Chenil",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Team4G!",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "DRX",
           "isGood": false
         }
       ]

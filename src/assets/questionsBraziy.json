@@ -43,7 +43,7 @@
       ]
     },
     {
-      "question": "Dans la partie \"À propos\" de notre chaine youtube sur quel autre jeu la PDC existe-t-elle ?",
+      "question": "Dans la partie \"À propos\" de notre chaine youtube (inchangée depuis 1 an et demi) sur quel autre jeu la PDC existe-t-elle ?",
       "responses": [
         {
           "text": "TrackMania",
@@ -106,22 +106,22 @@
       ]
     },
     {
-      "question": "" ,
+      "question": "Quel est le gagnant du titre de la Ligue Europa de l'UEFA en 2020 ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Séville FC",
+          "isGood": true
+        },
+        {
+          "text": "Atlético Madrid",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Arsenal FC",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "Chelsea FC",
           "isGood": false
         }
       ]

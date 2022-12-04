@@ -1,27 +1,6 @@
 {
   "questions": [
     {
-      "question": "Dans la description youtube de notre chaine youtube sur quel autre jeu la PDC existe-t-elle  ?",
-      "responses": [
-        {
-          "text": "TrackMania",
-          "isGood": false
-        },
-        {
-          "text": "TeamFight Tactics",
-          "isGood": false
-        },
-        {
-          "text": "Rocket League",
-          "isGood": true
-        },
-        {
-          "text": "Counter Strike Global Offensive",
-          "isGood": false
-        }
-      ]
-    },
-    {
       "question": "Combien de personnes ont le rôle LOL sur le discord ?",
       "responses": [
         {
@@ -38,27 +17,6 @@
         },
         {
           "text": "16",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Quelle a été la durée du live le plus long sur notre chaîne Twitch ?",
-      "responses": [
-        {
-          "text": "26h",
-          "isGood": false
-        },
-        {
-          "text": "30h",
-          "isGood": false
-        },
-        {
-          "text": "34h",
-          "isGood": true
-        },
-        {
-          "text": "38h",
           "isGood": false
         }
       ]
