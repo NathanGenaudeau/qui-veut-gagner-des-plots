@@ -22,22 +22,22 @@
       ]
     },
     {
-      "question": "" ,
+      "question": "Quel est le nom de la célèbre cloche du palais de Westminster à Londres ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Big Boss",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Big Brother",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
+          "text": "Big Ben",
+          "isGood": true
         },
         {
-          "text": "",
+          "text": "Big Bang",
           "isGood": false
         }
       ]
@@ -64,22 +64,22 @@
       ]
     },
     {
-      "question": "" ,
+      "question": "Si l'on trouve des pièces d'or dans son jardin, on doit obligatoirement..." ,
       "responses": [
         {
-          "text": "",
+          "text": "Les miser au poker",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Tout garder pour soi",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Les déclarer en mairie",
           "isGood": true
         },
         {
-          "text": "",
+          "text": "S'enfuir au Panama",
           "isGood": false
         }
       ]
@@ -106,22 +106,22 @@
       ]
     },
     {
-      "question": "" ,
+      "question": "Laquelle de ces propositions ne correspond pas à un groupe sanguin humain ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "A",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "B",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
+          "text": "C",
+          "isGood": true
         },
         {
-          "text": "",
+          "text": "D",
           "isGood": false
         }
       ]

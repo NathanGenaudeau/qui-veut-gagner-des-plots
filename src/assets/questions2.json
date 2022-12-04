@@ -1,27 +1,6 @@
 {
   "questions": [
     {
-      "question": "Quel est le gagnant du titre de la Ligue Europa de l'UEFA en 2020 ?" ,
-      "responses": [
-        {
-          "text": "Séville FC",
-          "isGood": true
-        },
-        {
-          "text": "Atlético Madrid",
-          "isGood": false
-        },
-        {
-          "text": "Arsenal FC",
-          "isGood": false
-        },
-        {
-          "text": "Chelsea FC",
-          "isGood": false
-        }
-      ]
-    },
-    {
       "question": "Dans \"Les Petits Mouchoirs\", quel est le prénom du personnage incarné par François Cluzet ?" ,
       "responses": [
         {
@@ -39,6 +18,111 @@
         {
           "text": "Max",
           "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Qui est la toute jeune actrice qui jour aux côtés de Jean Reno dans \"Léon\" ?" ,
+      "responses": [
+        {
+          "text": "Alyssa Milano",
+          "isGood": false
+        },
+        {
+          "text": "Marion Cotillard",
+          "isGood": false
+        },
+        {
+          "text": "Audrey Tatou",
+          "isGood": false
+        },
+        {
+          "text": "Natalie Portman",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Lequel de ces mots désigne un \"bleu\" profond et riche ?" ,
+      "responses": [
+        {
+          "text": "Imposant",
+          "isGood": false
+        },
+        {
+          "text": "Majestueux",
+          "isGood": false
+        },
+        {
+          "text": "Roi",
+          "isGood": true
+        },
+        {
+          "text": "Sublime",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel est le titre de cette \"formidable\" comédie française sortie en 2018 ?" ,
+      "responses": [
+        {
+          "text": "Excellentissime",
+          "isGood": false
+        },
+        {
+          "text": "Brillantissime",
+          "isGood": true
+        },
+        {
+          "text": "Cultiissime",
+          "isGood": false
+        },
+        {
+          "text": "Eminentissime",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quelle chanteuse a réintégré le jury de \"Dance avec les stars\" en 2018 ?" ,
+      "responses": [
+        {
+          "text": "Jenifer",
+          "isGood": false
+        },
+        {
+          "text": "Louane",
+          "isGood": false
+        },
+        {
+          "text": "Shy'm",
+          "isGood": true
+        },
+        {
+          "text": "Zazie",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans quel pays se trouve la ville balnéaire d'Eilat ?" ,
+      "responses": [
+        {
+          "text": "L'Egypte",
+          "isGood": false
+        },
+        {
+          "text": "Israël",
+          "isGood": true
+        },
+        {
+          "text": "La Grèce",
+          "isGood": false
+        },
+        {
+          "text": "La Turquie",
+          "isGood": false
         }
       ]
     }
