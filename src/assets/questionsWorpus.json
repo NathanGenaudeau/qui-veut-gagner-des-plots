@@ -121,197 +121,197 @@
           "isGood": true
         },
         {
-          "text": "D",
+          "text": "O",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Lequel de ces duos n'est pas issue d'une même fratrie ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Bigflo & Oli",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Fréro Delavega",
+          "isGood": true
+        },
+        {
+          "text": "Maître Gims et Dadju",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "Angèle et Roméo Elvis",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "En France, combien de mois de l'année commencent toujours par un jour férié ?",
       "responses": [
         {
-          "text": "",
+          "text": "2",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "3",
+          "isGood": true
+        },
+        {
+          "text": "4",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "5",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "L'épice considérée comme la plus chère au monde est..." ,
       "responses": [
         {
-          "text": "",
+          "text": "L'anis étoilé",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "La cardamome",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
+          "text": "Le safran",
+          "isGood": true
         },
         {
-          "text": "",
+          "text": "Le poivre blanc",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Quel pays a été dirigé pendant 16 ans par Gamal Abdel Nasser ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "L'Iran",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "L'Égypte",
+          "isGood": true
+        },
+        {
+          "text": "La Turquie",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "L'Arabie Saoudite",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Quelle ville italienne est célèbre pour le palais Pitti ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Rome",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Venise",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
+          "text": "Florence",
+          "isGood": true
         },
         {
-          "text": "",
+          "text": "Turin",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Qui a chanté à l'Olympia à l'âge de 13 ans ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "James Brown",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Bob Marley",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Tina Turner",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Stevie Wonder",
+          "isGood": true
+        }
+      ]
+    },
+    {
+      "question": "Quel acronyme désigne le système informatique utilisé par la police britannique ?" ,
+      "responses": [
+        {
+          "text": "MYCROFT",
+          "isGood": false
+        },
+        {
+          "text": "SHERLOCK",
+          "isGood": false
+        },
+        {
+          "text": "HOLMES",
+          "isGood": true
+        },
+        {
+          "text": "MORSE",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Dans la mythologie grecque, sur le dos de quel animal Phrixos a-t-il fui vers Colchide ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Une biche d'or",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Un bélier d'or",
+          "isGood": true
+        },
+        {
+          "text": "Un taureau d'or",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
+          "text": "Une vache d'or",
           "isGood": false
         }
       ]
     },
     {
-      "question": "" ,
+      "question": "Qui a peint \"L'Enfant bleu\" ?" ,
       "responses": [
         {
-          "text": "",
+          "text": "Claude Monet",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "John Constable",
           "isGood": false
         },
         {
-          "text": "",
+          "text": "Léonard de Vinci",
           "isGood": false
         },
         {
-          "text": "",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "" ,
-      "responses": [
-        {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
-          "isGood": false
-        },
-        {
-          "text": "",
-          "isGood": false
+          "text": "Thoams Gainsborough",
+          "isGood": true
         }
       ]
     }

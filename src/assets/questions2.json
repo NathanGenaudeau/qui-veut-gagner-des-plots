@@ -1,27 +1,6 @@
 {
   "questions": [
     {
-      "question": "Dans \"Les Petits Mouchoirs\", quel est le prénom du personnage incarné par François Cluzet ?" ,
-      "responses": [
-        {
-          "text": "Vincent",
-          "isGood": false
-        },
-        {
-          "text": "Antoine",
-          "isGood": false
-        },
-        {
-          "text": "Eric",
-          "isGood": false
-        },
-        {
-          "text": "Max",
-          "isGood": true
-        }
-      ]
-    },
-    {
       "question": "Qui est la toute jeune actrice qui jour aux côtés de Jean Reno dans \"Léon\" ?" ,
       "responses": [
         {
@@ -85,6 +64,27 @@
       ]
     },
     {
+      "question": "D'après la société centraile canine, la race de chien préférée des Français en 2018 était..." ,
+      "responses": [
+        {
+          "text": "Le berger australien",
+          "isGood": true
+        },
+        {
+          "text": "Le labrador",
+          "isGood": false
+        },
+        {
+          "text": "Le teckel",
+          "isGood": false
+        },
+        {
+          "text": "Le bouledogue français",
+          "isGood": false
+        }
+      ]
+    },
+    {
       "question": "Quelle chanteuse a réintégré le jury de \"Dance avec les stars\" en 2018 ?" ,
       "responses": [
         {
@@ -123,6 +123,48 @@
         {
           "text": "La Turquie",
           "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Quel homme politique est devenu président des États-Unis sans avoir été élu à ce poste ?" ,
+      "responses": [
+        {
+          "text": "Richard Nixon",
+          "isGood": false
+        },
+        {
+          "text": "Jimmy Carter",
+          "isGood": false
+        },
+        {
+          "text": "Gerald Ford",
+          "isGood": true
+        },
+        {
+          "text": "George Bush",
+          "isGood": false
+        }
+      ]
+    },
+    {
+      "question": "Dans \"Les Petits Mouchoirs\", quel est le prénom du personnage incarné par François Cluzet ?" ,
+      "responses": [
+        {
+          "text": "Vincent",
+          "isGood": false
+        },
+        {
+          "text": "Antoine",
+          "isGood": false
+        },
+        {
+          "text": "Eric",
+          "isGood": false
+        },
+        {
+          "text": "Max",
+          "isGood": true
         }
       ]
     }
