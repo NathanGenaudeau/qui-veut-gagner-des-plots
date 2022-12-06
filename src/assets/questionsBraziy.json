@@ -88,11 +88,11 @@
       "question": "Quelle a été la durée du live le plus long sur notre chaîne Twitch ?",
       "responses": [
         {
-          "text": "26h",
+          "text": "24h",
           "isGood": false
         },
         {
-          "text": "30h",
+          "text": "29h",
           "isGood": false
         },
         {
@@ -100,7 +100,7 @@
           "isGood": true
         },
         {
-          "text": "38h",
+          "text": "39h",
           "isGood": false
         }
       ]
