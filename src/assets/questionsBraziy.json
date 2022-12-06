@@ -106,6 +106,27 @@
       ]
     },
     {
+      "question": "Laquelle de ces propositions ne correspond pas à un groupe sanguin humain ?" ,
+      "responses": [
+        {
+          "text": "A",
+          "isGood": false
+        },
+        {
+          "text": "B",
+          "isGood": false
+        },
+        {
+          "text": "C",
+          "isGood": true
+        },
+        {
+          "text": "O",
+          "isGood": false
+        }
+      ]
+    },
+    {
       "question": "Quel est le gagnant du titre de la Ligue Europa de l'UEFA en 2020 ?" ,
       "responses": [
         {
@@ -122,27 +143,6 @@
         },
         {
           "text": "Chelsea FC",
-          "isGood": false
-        }
-      ]
-    },
-    {
-      "question": "Dans la tradition chrétienne, quel \"François\" est le saint patron des écologistes ?" ,
-      "responses": [
-        {
-          "text": "François d'Assise",
-          "isGood": true
-        },
-        {
-          "text": "François Hollande",
-          "isGood": false
-        },
-        {
-          "text": "François Mitterand",
-          "isGood": false
-        },
-        {
-          "text": "François Berléand",
           "isGood": false
         }
       ]

@@ -106,22 +106,22 @@
       ]
     },
     {
-      "question": "Laquelle de ces propositions ne correspond pas à un groupe sanguin humain ?" ,
+      "question": "Dans la tradition chrétienne, quel \"François\" est le saint patron des écologistes ?" ,
       "responses": [
         {
-          "text": "A",
-          "isGood": false
-        },
-        {
-          "text": "B",
-          "isGood": false
-        },
-        {
-          "text": "C",
+          "text": "François d'Assise",
           "isGood": true
         },
         {
-          "text": "O",
+          "text": "François Hollande",
+          "isGood": false
+        },
+        {
+          "text": "François Mitterand",
+          "isGood": false
+        },
+        {
+          "text": "François Berléand",
           "isGood": false
         }
       ]
