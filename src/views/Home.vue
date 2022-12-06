@@ -44,7 +44,7 @@
 <script>
 import Question from '@/components/Question.vue';
 import Modal from '@/components/Modal.vue';
-import QuestionsList from '@/assets/questionsBraziy.json';
+import QuestionsList from '@/assets/questionsWorpus.json';
 
 export default {
   name: 'Home',
